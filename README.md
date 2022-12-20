@@ -1,6 +1,6 @@
 ## rfm_analysis
  
-The code above defines three functions for calculating RFM (recency, frequency, and monetary value) scores for a given set of customer data, segmenting the customers based on those scores, and creating a personalized marketing campaign for each customer based on their segment.
+For this project I have created a python package for RFM Analysis. RFM analysis is a marketing technique used to quantitatively rank and group customers based on the recency, frequency and monetary total of their recent transactions to identify the best customers and perform targeted marketing campaigns. The package defines three functions for calculating RFM (recency, frequency, and monetary value) scores for a given set of customer data, segmenting the customers based on those scores, and creating a personalized marketing campaign for each customer based on their segment.
 
 The calculate_rfm_scores function takes a DataFrame of customer data as input and returns a DataFrame of RFM scores for each customer. It calculates the recency score by dividing the maximum recency value by the recency value of each customer, and then subtracting the result from 5. It calculates the frequency score and the monetary value score in a similar manner.
 
